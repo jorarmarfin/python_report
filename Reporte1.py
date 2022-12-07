@@ -39,10 +39,10 @@ cabecera = [("N°","NOMBRES","SEXO",
 "ESPECIALIDAD","DEPARTAMENTO",
 "PROVINCIA","DISTRITO","COLEGIO",
 "GESTION","NOTA")]
-#
-titulo_reporte.setFillColorRGB(0,0,0)
+
 #
 indice = c.beginText(40, h - 130)
+indice.setFillColorRGB(0,0,0)
 indice.setFont(psfontname="Helvetica-Bold",size=10)
 indice.textLine("N°")
 c.drawText(indice)
